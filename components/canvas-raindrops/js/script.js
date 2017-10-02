@@ -72,7 +72,7 @@ var animate = function() {
 
       context.clearRect(0, 0, w, h);
   }
-  if (raindrops.length < 100000) {
+  if (raindrops.length < 100) {
     raindrops.push(getRaindrop());
   }
   for (var i = 0; i < raindrops.length; i += 1) {
